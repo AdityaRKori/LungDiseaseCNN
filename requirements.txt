@@ -1,0 +1,10 @@
+tensorflow>=2.0
+streamlit
+pyngrok
+ngrok
+pandas
+numpy
+matplotlib
+scikit-learn
+Pillow
+shap
