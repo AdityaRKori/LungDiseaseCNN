@@ -1,0 +1,11 @@
+pyngrok
+ngrok
+shap
+pandas
+scikit-learn
+streamlit
+tensorflow
+keras
+numpy
+pillow
+matplotlib
