@@ -1,7 +1,7 @@
 # 🫁 Lung Disease Prediction & Explanation using CNN (DenseNet201)
 
 <p align="center">
-  <img src="1_M1_xsd2Q5lMOl9QYr5ECrA.webp" alt="Chest X-ray Poster" width="520"/>
+  <img src="1_bfXdDMsYipdVDJY5Tho7gQ.webp" alt="Chest X-ray Poster" width="520"/>
 </p>
 
 <p align="center">
@@ -113,19 +113,19 @@ The Streamlit app provides an end-to-end diagnostic experience.
 ---
 
 ### 🔹 Upload & Prediction Interface
-**File:** `1_o3-W1RD5MYN1p4u8xLd0Xw.webp`  
+**File:**  <img src="1_o3-W1RD5MYN1p4u8xLd0Xw.webp" alt="Chest X-ray Poster" width="100"/> 
 Users upload a chest X-ray image (PNG/JPG/JPEG). Optional patient information can be entered for contextual tracking.
 
 ---
 
 ### 🔹 Uploaded X-ray Preview
-**File:** `1_opU8juVeP03TTO_sdHU3EQ.webp`  
+**File:** <img src="1_opU8juVeP03TTO_sdHU3EQ.webp" alt="Chest X-ray Poster" width="100"/>
 Displays the uploaded chest X-ray for visual confirmation before prediction.
 
 ---
 
 ### 🔹 High-Confidence Disease Prediction
-**File:** `1_bfXdDMsYipdVDJY5Tho7gQ.webp`  
+**File:** <img src="1_bfXdDMsYipdVDJY5Tho7gQ.webp" alt="Chest X-ray Poster" width="100"/>  
 Shows:
 - Predicted disease class  
 - Prediction probability  
@@ -134,19 +134,19 @@ Shows:
 ---
 
 ### 🔹 Probability Distribution for Uncertain Cases
-**File:** `1_VVzbCt3-Xgv3yca6HI2wjA.webp`  
+**File:** <img src="1_VVzbCt3-Xgv3yca6HI2wjA.webp" alt="Chest X-ray Poster" width="100"/>
 When confidence is lower, a pie chart displays probability distribution across all classes, enabling informed interpretation rather than a single hard label.
 
 ---
 
 ### 🔹 Normal Lung Classification
-**File:** `1_JrBssVUMQZOn-RceZeCNjA.webp`  
+**File:** <img src="1_JrBssVUMQZOn-RceZeCNjA.webp" alt="Chest X-ray Poster" width="100"/>
 Demonstrates accurate differentiation between diseased and healthy lungs with high confidence.
 
 ---
 
 ### 🔹 WHO Care & Safety Guidance Display
-**File:** `1_fmBQDctHS3EKzQM6xQSRIQ.webp`  
+**File:** <img src="1_fmBQDctHS3EKzQM6xQSRIQ.webp" alt="Chest X-ray Poster" width="100"/>
 Automatically surfaces general and disease-specific WHO care recommendations based on the predicted class.
 
 ---
