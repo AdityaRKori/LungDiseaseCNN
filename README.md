@@ -114,18 +114,21 @@ The Streamlit app provides an end-to-end diagnostic experience.
 
 ### 🔹 Upload & Prediction Interface
 **File:**  <img src="1_o3-W1RD5MYN1p4u8xLd0Xw.webp" alt="Chest X-ray Poster" width="400"/> 
-Users upload a chest X-ray image (PNG/JPG/JPEG). Optional patient information can be entered for contextual tracking.
+
+- Users upload a chest X-ray image (PNG/JPG/JPEG). Optional patient information can be entered for contextual tracking.
 
 ---
 
 ### 🔹 Uploaded X-ray Preview
 **File:** <img src="1_opU8juVeP03TTO_sdHU3EQ.webp" alt="Chest X-ray Poster" width="400"/>
-Displays the uploaded chest X-ray for visual confirmation before prediction.
+
+- Displays the uploaded chest X-ray for visual confirmation before prediction.
 
 ---
 
 ### 🔹 High-Confidence Disease Prediction
 **File:** <img src="1_bfXdDMsYipdVDJY5Tho7gQ.webp" alt="Chest X-ray Poster" width="400"/>  
+
 Shows:
 - Predicted disease class  
 - Prediction probability  
@@ -135,19 +138,22 @@ Shows:
 
 ### 🔹 Probability Distribution for Uncertain Cases
 **File:** <img src="1_VVzbCt3-Xgv3yca6HI2wjA.webp" alt="Chest X-ray Poster" width="400"/>
-When confidence is lower, a pie chart displays probability distribution across all classes, enabling informed interpretation rather than a single hard label.
+
+- When confidence is lower, a pie chart displays probability distribution across all classes, enabling informed interpretation rather than a single hard label.
 
 ---
 
 ### 🔹 Normal Lung Classification
 **File:** <img src="1_JrBssVUMQZOn-RceZeCNjA.webp" alt="Chest X-ray Poster" width="400"/>
-Demonstrates accurate differentiation between diseased and healthy lungs with high confidence.
+
+- Demonstrates accurate differentiation between diseased and healthy lungs with high confidence.
 
 ---
 
 ### 🔹 WHO Care & Safety Guidance Display
 **File:** <img src="1_fmBQDctHS3EKzQM6xQSRIQ.webp" alt="Chest X-ray Poster" width="400"/>
-Automatically surfaces general and disease-specific WHO care recommendations based on the predicted class.
+
+- Automatically surfaces general and disease-specific WHO care recommendations based on the predicted class.
 
 ---
 
@@ -170,11 +176,11 @@ Always consult a qualified healthcare provider for clinical decisions.
 
 ## 📂 Project Structure
 
-├── app.py # Streamlit application
-├── model/ # Trained CNN model
-├── data/ # Dataset (train/val/test)
-├── requirements.txt # Dependencies
-├── README.md
+- ├── app.py # Streamlit application
+- ├── model/ # Trained CNN model
+- ├── data/ # Dataset (train/val/test)
+- ├── requirements.txt # Dependencies
+- ├── README.md
 
 
 ---
@@ -190,17 +196,19 @@ venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
 streamlit run app.py
-👤 Author & Credits
-Author: Aditya K
-Model Backbone: DenseNet201
-Frameworks: TensorFlow, Keras, Streamlit
 
-🔗 LinkedIn: https://www.linkedin.com/in/aditya-kori-0853b6229
 
-🔗 Related Links
-Live demo (LungDiseaseCNN): https://lungdiseasecnn-fulypbrimr9tdvs8qlh9tm.streamlit.app/
+## **👤 Author & Credits**
+- **Author: Aditya K**
+- **Model Backbone:** DenseNet201
+- **Frameworks:** TensorFlow, Keras, Streamlit
 
-Repository (example): https://github.com/AdityaRKori
+## 🔗 LinkedIn: https://www.linkedin.com/in/aditya-kori-0853b6229
 
-📄 License
-MIT License
+## 🔗 Related Links
+- Live demo (LungDiseaseCNN): https://lungdiseasecnn-fulypbrimr9tdvs8qlh9tm.streamlit.app/
+
+- Repository (example): https://github.com/AdityaRKori
+
+# **📄 License**
+*MIT License*
